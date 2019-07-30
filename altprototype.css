@@ -1,0 +1,128 @@
+
+/*header*/
+body{
+    
+    background-image: url("pics/grad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(92, 121, 218);
+    padding: 20px;
+    text-align: center;
+    background: url("pics/header.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+
+}
+
+ /* a border for the forms */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* width for inputs  */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ 
+}
+
+/* Set dementions for the buttons */
+button {
+  background-color: lightblue;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* hover effect  */
+button:hover {
+  opacity: 0.8;
+}
+
+/* cancel button needs a different color */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* user image centering */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* user image */
+img.avatar {
+  width: 10%;
+  border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} 
+
+/* Navbar for choosing what to do */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* hover for each link for nav bar */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.textWhite {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
